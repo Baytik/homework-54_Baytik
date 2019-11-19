@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+.card {
+  vertical-align: top;
 }
-
-.App-logo {
-  height: 40vmin;
+.btn-1 {
+  background: blue;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-1:focus {
+  background: red;
 }
-
-.App-link {
-  color: #09d3ac;
+.btn-1:hover {
+  background: green;
 }
